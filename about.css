@@ -1,0 +1,53 @@
+h1{
+    background-color: cadetblue;
+    padding: 20px ;
+    border: 10px solid;
+}
+section:nth-of-type(2n){
+    background-color: fuchsia;
+border-top: 15px solid blue;
+}
+p{
+    line-height: 2;
+}
+* section{
+    font-size: 24px;
+}
+section:nth-of-type(2n+1){
+    background-color: #ccc;
+    border-top: 12px double crimson;
+    border-bottom: 12px double crimson;
+}
+dl{
+color: white;
+background-color: RGB(0,0,255);
+}
+dt{
+    background-color: gray;
+    padding: 20px;
+}
+dd~dt{
+line-height: 2;
+}
+ol li:nth-of-type(2n+1){
+    background-color: burlywood;
+    padding: 15px;
+}
+ol li:nth-of-type(2n){
+    background-color: cyan;
+    padding: 15px;
+}
+ul li:nth-of-type(2n+1){
+    background-color: burlywood;
+    padding: 15px;
+}
+ul li:nth-of-type(2n){
+    background-color: cyan;
+    padding: 15px;
+}
+img[src^="http"]{
+    border-radius: 0 50px 0 50px;
+}
+img[src^="./media/"]{
+    border-radius: 50px 0 50px 0;
+}
