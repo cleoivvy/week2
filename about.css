@@ -26,7 +26,7 @@ dt{
     background-color: gray;
     padding: 20px;
 }
-dd~dt{
+dt+dd{
 line-height: 2;
 }
 ol li:nth-of-type(2n+1){
