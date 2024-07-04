@@ -21,7 +21,7 @@ section:nth-of-type(2n+1){
 dl{
 color: white;
 background-color: RGB(0,0,255);
-}
+} 
 dt{
     background-color: gray;
     padding: 20px;
